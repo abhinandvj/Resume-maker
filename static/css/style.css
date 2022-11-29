@@ -1,0 +1,218 @@
+.index{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2vw;
+}
+.fullname {
+    font-size: 1.8vw;
+    text-transform: uppercase;
+    color: #1b7459;
+    margin: 0;
+}
+.designation{
+    font-size: 1.6vw;
+    color: #1b7459;
+    margin: 0;
+}
+.rig {
+    position: absolute;
+    left: 78vw;
+    font-size: 1.3vw;
+    top: 0vw;
+    text-align: end;
+    margin-top: 1.8vw;
+}
+hr {
+    margin-top: 3.8vw;
+}
+span {
+    font-weight: bold;
+}
+.skills {
+    color: #1b7459;
+    font-size: 1.5vw;
+}
+span.co{
+    font-size: 1vw;
+    color: #1b7459;
+
+}
+p{
+    font-size: 0.8vw;
+}
+.as {
+    font-size: 0.8vw;
+    color: #1b7459;
+    font-weight: bold;
+
+
+}
+.homes{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+}
+
+img.bg {
+    width: 100%;
+    opacity: 0.4;
+    height: 40vw;
+}
+
+.bi {
+    background-color: rgba(0, 0, 0);
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+}
+p.hd {
+    text-decoration: none;
+    color: brown;
+}
+.nav .contact {
+    color: brown;
+}
+.nav a{
+    text-decoration: none;
+}
+.page {
+    position: absolute;
+    top: 4.5vw;
+    color: white;
+    margin-left: 10%;
+}
+
+p.lft {
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 60%;
+}
+p.pg {
+    font-size: 2vw;
+    position: absolute;
+    top: 14vw;
+    width: 70%;
+}
+button.create {
+    position: absolute;
+    width: 10vw;
+    padding: 1vw;
+    font-size: 1.2vw;
+    top: 27vw;
+    left: 16%;
+    border-radius: 12px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+button.create:hover {
+    
+  
+    transition: 0.2s;
+    
+    background-color: rgb(120, 28, 173);
+    color: white;
+}
+img.cv {
+    position: absolute;
+    right: 20vw;
+    width: 23%;
+    top: 7vw;
+}
+.footer {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.footer h1 {
+    font-size: 1vw;
+}
+
+.footer p {
+    
+    font-size: 0.8vw;
+}
+
+.footer .logos {
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    border-top: 1px solid black;
+    color: rgb(4, 3, 4);
+        
+}
+::before {
+    color: black;
+}
+
+#copyright {
+    font-size: 0.8vw;
+    color: #a7a8a5;
+}
+.rgt img:hover{
+    width: 30%;
+    right: 17vw;
+    height: 35vw;
+    top: 3.7vw;
+    transition: 0.3s;
+}
+.nav .contact:hover{
+    box-shadow: #a7a8a5;
+    text-decoration: underline;
+    color: red;
+}
+p.hd:hover{
+    text-decoration: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 2.5vw;
+    width: 50%;
+    margin-top: 2vw;
+}
+
+.waviy span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-9px)
+  }
+}
+
+/* 2nd page  */
+
+body.colr{
+    background-color: rgb(124, 7, 192);
+    color: #fff;
+    text-align: center;
+}
